@@ -9,37 +9,37 @@ people can download the HealthMonitorApp.apk in final_apk documents. Majority of
 
 ### Sign up and Sign in 
 
-![alt text](p1.JPG)
+![alt text](p1.jpg)
 
 ### Personal profile
 
-![alt text](p2.JPG)
+![alt text](p2.jpg)
 
 ### Navigate bar
 
-![alt text](p3.JPG)
+![alt text](p3.jpg)
 
 ### BMI 
 
-![alt text](p4.JPG)
+![alt text](p4.jpg)
 
 ### Step counter
 
-![alt text](p7.JPG)
+![alt text](p7.jpg)
 
 ### Food database
 
-![alt text](p5.JPG)
+![alt text](p5.jpg)
 
-![alt text](p6.JPG)
+![alt text](p6.jpg)
 
 ### Sleep hours
 
-![alt text](p9.JPG)
+![alt text](p9.jpg)
 
 ### Water record
 
-![alt text](p8.JPG)
+![alt text](p8.jpg)
 
 ### Contact information
 
