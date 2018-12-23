@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--top-->
+    <color name="colorPrimaryDark">#515151</color>
+    <color name="colorPrimary">#515151</color>
+    <color name="colorNav_bar">#515151</color>
+
+    <color name="color_navigation_list_background">#ffffff</color>
+    <!--<color name="color_selector_navigation_item">#0000ff</color>-->
+    <!--<color name="color_selector_navigation_item_txt">#00ffbf</color>-->
+
+    <color name="colorAccent">#7295ef</color>
+    <color name="colorBase">#ffffff</color>
+</resources>
