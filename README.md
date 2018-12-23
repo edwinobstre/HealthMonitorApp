@@ -9,37 +9,37 @@ people can download the HealthMonitorApp.apk in final_apk documents. Majority of
 
 ### Sign up and Sign in 
 
-<img src="p1.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p1.jpg" alt="alt text" width=600 height=400>
 
 ### Personal profile
 
-<img src="p2.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p2.jpg" alt="alt text" width=600 height=400>
 
 ### Navigate bar
 
-<img src="p3.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p3.jpg" alt="alt text" width=600 height=400>
 
 ### BMI 
 
-<img src="p4.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p4.jpg" alt="alt text" width=600 height=400>
 
 ### Step counter
 
-<img src="p7.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p7.jpg" alt="alt text" width=600 height=400>
 
 ### Food database
 
-<img src="p5.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p5.jpg" alt="alt text" width=600 height=400>
 
-<img src="p6.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p6.jpg" alt="alt text" width=600 height=400>
 
 ### Sleep hours
 
-<img src="p9.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p9.jpg" alt="alt text" width=600 height=400>
 
 ### Water record
 
-<img src="p8.jpg" alt="alt text" width=600 height=400>
+<img src="PS_Files/p8.jpg" alt="alt text" width=600 height=400>
 
 ### Contact information
 
