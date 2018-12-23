@@ -10,6 +10,7 @@ people can download the HealthMonitorApp.apk in final_apk documents. Majority of
 ### Sign up and Sign in 
 
 ![](p1.jpg=250x250)
+<img src="p1.jpg" alt="alt text" width=200 height=200>
 
 ### Personal profile
 
