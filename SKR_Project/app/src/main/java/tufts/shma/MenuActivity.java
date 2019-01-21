@@ -3,13 +3,7 @@ package tufts.shma;
 import tufts.shma.BodyMassIndex.BMI;
 import tufts.shma.Calendar.CalendarHelper;
 import tufts.shma.Diet.DietDatabaseHelper;
-<<<<<<< HEAD
-import tufts.shma.StepCounter.StepDatabaseHelper;
-import tufts.shma.Calendar.CalendarHelper;
-=======
-
 import android.app.Service;
->>>>>>> Qinlong
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.hardware.Sensor;
@@ -41,24 +35,11 @@ import android.widget.Toast;
 
 import com.shinelw.library.ColorArcProgressBar;
 
-<<<<<<< HEAD
-import java.util.regex.Pattern;
-
-import tufts.shma.BodyMassIndex.BMI;
-import tufts.shma.StepCounter.SensorStepService;
-
-
-=======
->>>>>>> Qinlong
 public class MenuActivity extends AppCompatActivity
 
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener, SensorEventListener {
 
-<<<<<<< HEAD
-    private View step_fg,bmi_fg,diet_fg,sleep_fg,water_fg,history_fg,profile_fg;
-=======
     private View step_fg,bmi_fg,diet_fg,sleep_fg,water_fg/*,history_fg,profile_fg*/;
->>>>>>> Qinlong
     private ImageView ivIndex;
     private TextView bmi_result;
     private String bmi;
@@ -68,15 +49,8 @@ public class MenuActivity extends AppCompatActivity
     private Button btn_start;
     private int step = 0;
     private TextView tv_date;
-<<<<<<< HEAD
-    private Button btn_start;
     private TextView tv_sleep;
     int sleep_time = 0;
-
-=======
-    private TextView tv_sleep;
-    int sleep_time = 0;
->>>>>>> Qinlong
     private double oriValue = 0;
     private double lstValue = 0;
     private double curValue = 0;
@@ -106,12 +80,8 @@ public class MenuActivity extends AppCompatActivity
         diet_fg.setVisibility(View.GONE);
         sleep_fg.setVisibility(View.GONE);
         water_fg.setVisibility(View.GONE);
-<<<<<<< HEAD
-        history_fg.setVisibility(View.GONE);
-        profile_fg.setVisibility(View.GONE);
-=======
+
 //        history_fg.setVisibility(View.GONE);
->>>>>>> Qinlong
 //        profile_fg.setVisibility(View.GONE);
     }
 
@@ -144,25 +114,15 @@ public class MenuActivity extends AppCompatActivity
         if(current_minutes % 5 == 0 && processState == false) {
             if (current_hours >= 21 || current_hours <= 9){
                 sleep_time += 5*60;
-<<<<<<< HEAD
-                }
-                else if(current_hours == 10){
-=======
             }
             else if(current_hours == 10){
->>>>>>> Qinlong
                 sleep_time = 0;
             }
         }
 
-<<<<<<< HEAD
-            return (cal.convertSeconds(sleep_time));
-    }
-=======
         return (cal.convertSeconds(sleep_time));
     }
     //~sleep
->>>>>>> Qinlong
     //Step
     @Override
     public void onSensorChanged(SensorEvent event) {
@@ -369,10 +329,7 @@ public class MenuActivity extends AppCompatActivity
         bmi = bmi1.BMI_caculate(sp2.getString("C_weight", null),sp2.getString("Height", null));
         ivRotate(Double.valueOf(bmi));
         bmi_result.setText(bmi);
-<<<<<<< HEAD
-=======
         //fitness_progress.setMax(Integer.valueOf(max_date).intValue());
->>>>>>> Qinlong
         //sleep
         tv_sleep = (TextView) findViewById(R.id.tv_sleep);
         Thread t = new Thread() {
@@ -398,13 +355,6 @@ public class MenuActivity extends AppCompatActivity
         CalendarHelper cal = new CalendarHelper();
         tv_date=(TextView)findViewById(R.id.tv_date);
         tv_date.setText(cal.dateGet());
-<<<<<<< HEAD
-        //progress
-        String max_date = sp2.getString("Period","0");
-        fitness_progress.setProgress(4);
-        fitness_progress.setMax(Integer.valueOf(max_date).intValue());
-=======
->>>>>>> Qinlong
         //Step function
         sManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mSensorAccelerometer = sManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -547,11 +497,6 @@ public class MenuActivity extends AppCompatActivity
         viewAll();
         UpdateData();
         DeleteData();
-
-<<<<<<< HEAD
-
-=======
->>>>>>> Qinlong
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         int id = item.getItemId();
 
@@ -563,11 +508,7 @@ public class MenuActivity extends AppCompatActivity
             bmi_fg.setVisibility(View.VISIBLE);
         }
         else if (id == R.id.nav_steps) {
-<<<<<<< HEAD
-
-=======
             toolbar.setTitle("STEPS");
->>>>>>> Qinlong
             allfg_gone();
             step_fg.setVisibility(View.VISIBLE);
         }
